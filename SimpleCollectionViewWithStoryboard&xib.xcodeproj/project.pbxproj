@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F76C13AB2CF61C3E00A626CF /* MyCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F76C13AA2CF61C3E00A626CF /* MyCollectionViewCell.xib */; };
+		F76C13AC2CF61C3E00A626CF /* MyCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F76C13A92CF61C3E00A626CF /* MyCollectionViewCell.swift */; };
 		F7FE18002CF5D4A5005615A6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7FE17FF2CF5D4A5005615A6 /* AppDelegate.swift */; };
 		F7FE18022CF5D4A5005615A6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7FE18012CF5D4A5005615A6 /* SceneDelegate.swift */; };
 		F7FE18042CF5D4A5005615A6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7FE18032CF5D4A5005615A6 /* ViewController.swift */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F76C13A92CF61C3E00A626CF /* MyCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCollectionViewCell.swift; sourceTree = "<group>"; };
+		F76C13AA2CF61C3E00A626CF /* MyCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyCollectionViewCell.xib; sourceTree = "<group>"; };
 		F7FE17FC2CF5D4A5005615A6 /* SimpleCollectionViewWithStoryboard&xib.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SimpleCollectionViewWithStoryboard&xib.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7FE17FF2CF5D4A5005615A6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F7FE18012CF5D4A5005615A6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -62,6 +66,8 @@
 				F7FE18052CF5D4A5005615A6 /* Main.storyboard */,
 				F7FE18082CF5D4A6005615A6 /* Assets.xcassets */,
 				F7FE180A2CF5D4A6005615A6 /* LaunchScreen.storyboard */,
+				F76C13A92CF61C3E00A626CF /* MyCollectionViewCell.swift */,
+				F76C13AA2CF61C3E00A626CF /* MyCollectionViewCell.xib */,
 				F7FE180D2CF5D4A6005615A6 /* Info.plist */,
 			);
 			path = "SimpleCollectionViewWithStoryboard&xib";
@@ -127,6 +133,7 @@
 			files = (
 				F7FE18092CF5D4A6005615A6 /* Assets.xcassets in Resources */,
 				F7FE180C2CF5D4A6005615A6 /* Base in Resources */,
+				F76C13AB2CF61C3E00A626CF /* MyCollectionViewCell.xib in Resources */,
 				F7FE18072CF5D4A5005615A6 /* Base in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -140,6 +147,7 @@
 			files = (
 				F7FE18042CF5D4A5005615A6 /* ViewController.swift in Sources */,
 				F7FE18002CF5D4A5005615A6 /* AppDelegate.swift in Sources */,
+				F76C13AC2CF61C3E00A626CF /* MyCollectionViewCell.swift in Sources */,
 				F7FE18022CF5D4A5005615A6 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
